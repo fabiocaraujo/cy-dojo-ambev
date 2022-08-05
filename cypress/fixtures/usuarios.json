@@ -1,0 +1,16 @@
+[
+    {
+        "usuario": "Ivani.Melo99@live.com",
+        "senha": "teste@123"
+    },
+    {
+        "usuario": "fabio.Melo38@live.com",
+        "senha": "teste@123", 
+        "perfil": "admin"
+    },
+    {
+        "usuario": "Ivani.Melo99@live.com",
+        "senha": "teste@123"
+    }
+
+]
