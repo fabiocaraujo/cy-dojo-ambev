@@ -23,5 +23,4 @@ describe('Funcionalidade: Login', () => {
         cy.login(usuarios[2].usuario, usuarios[2].senha)
         cy.get('[data-test="dashboard-welcome"]').should('contain', 'Bem-vindo')
     });
-
 });
