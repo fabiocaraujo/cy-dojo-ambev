@@ -49,5 +49,4 @@ describe('Funcionalidade Perfil via API', () => {
         })        
     });
 
-
 });

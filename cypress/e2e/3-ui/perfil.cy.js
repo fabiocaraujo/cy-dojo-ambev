@@ -7,9 +7,17 @@ describe('Funcionalidade: Criar perfil', () => {
         cy.visit('criar-perfil')
     });
     
-    it('Deve criar perfil com sucesso', () => {
-        cy.get('#mui-component-select-status').click()
-        cy.contains('Especialista em QA').click()
+    it.only('Deve criar perfil com sucesso', () => {
+        cy.get('#mui-component-select-status').click().type('Outro').click()
+        cy.wait(5000)
+        //cy.get('[data-test="status-3"]').click()
+
+
+
+        cy.wait(10000)
+       // cy.contains('Especialista em QA').click()
+
+
         cy.get('[data-test="profile-company"]').type('Via')
         cy.get('[data-test="profile-webSite"]').type('http://www.viahub.com')
         cy.get('[data-test="profile-location"]').type('São Paulo')

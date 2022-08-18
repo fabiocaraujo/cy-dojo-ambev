@@ -26,7 +26,6 @@ beforeEach(() => {
         cy.get('[data-test="navbar-logout"]').click() //logout
         cy.cadastro('Thiago', email, 'teste@123', 'teste@123')
         cy.get('[data-test="alert"]').should('contain', 'Usuário já registrado')
-        
     });
 
 
@@ -34,7 +33,6 @@ beforeEach(() => {
     
 
 });
-
 
 /* 
 Funcionalidade: Cadastro 
