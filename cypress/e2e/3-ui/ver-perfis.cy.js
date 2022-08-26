@@ -18,7 +18,7 @@ describe('Funcionalidade: Ver perfis', () => {
         cy.get('[data-test="profile-name"]').first().should('have.text', 'Paulo Guerra' )
     });
 
-    it.only('Deve vlaidar o ultimo item da lista', () => {
+    it.only('Deve validar o ultimo item da lista', () => {
         cy.intercept({
             method: 'GET',
             url: 'api/profile',
