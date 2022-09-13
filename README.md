@@ -1,1 +1,1 @@
-# cy-dojo-ambev
+# cy-dojo-ambev template
