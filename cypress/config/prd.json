@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://conexaoqa.herokuapp.com/", 
+    "env": {
+        "usuario": "fabio@teste.com",
+        "senha": "teste@123" 
+    }
+}

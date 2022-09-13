@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "cy-run": "npx cypress run --env allure=true", 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy-run": "npx cypress run --env allure=true",
     "cy-dashboard": "cypress run --record --key e78d15cc-c6df-4c81-9c41-af7ba854b8ae"
   },
   "repository": {
@@ -21,7 +21,8 @@
   "homepage": "https://github.com/fabiocaraujo/cy-dojo-ambev#readme",
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.28.5",
-    "cypress": "latest"
+    "cypress": "latest",
+    "cypress-grep": "^2.6.1"
   },
   "dependencies": {
     "faker-br": "^0.4.1"

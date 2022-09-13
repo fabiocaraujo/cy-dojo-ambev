@@ -7,7 +7,7 @@ beforeEach(() => {
     cy.visit('cadastrar')
 });
 
-    it('Cadastro com sucesso', () => {
+    it('Cadastro com sucesso ', { tags: 'smoke' }, () => {
         let nome = 'Fábio ' + faker.name.lastName()
         let email = faker.internet.email(nome)
 
